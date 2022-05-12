@@ -1,19 +1,37 @@
 {
 	"name": "react-getter-setter",
-	"description": "Getter and Setters for Global React Variables",
 	"version": "1.0.0",
-	"main": "index.js",
-	"type": "module",
-	"repository": "https://github.com/purplevarun/react-getter-setter.git",
-	"homepage": "https://github.com/purplevarun/react-getter-setter",
-	"author": "purplevarun <purplevarun@gmail.com>",
-	"license": "MIT",
+	"description": "React Getter Setter",
+	"main": "./build/index.js",
+	"types": "./build/index.d.ts",
+	"scripts": {
+		"build": "webpack"
+	},
+	"author": "purplevarun",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.17.10",
+		"@babel/preset-env": "^7.17.10",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.5",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10"
+	},
+	"peerDependencies": {
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0"
+	},
 	"keywords": [
 		"react",
 		"getter",
 		"setter"
 	],
-	"devDependencies": {
-		"react": "^18.1.0"
-	}
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/purplevarun/react-getter-setter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/purplevarun/react-getter-setter/issues"
+	},
+	"homepage": "https://github.com/purplevarun/react-getter-setter#readme"
 }

@@ -4,7 +4,11 @@
 declare const GetterSetterWrapper: () => React.FC;
 
 /**
- * Returns two functions : getValue and setValue
+ * Returns four functions :
+ * getValue
+ * setValue
+ * removeValue
+ * removeAllValues
  * */
 declare const useValue: () => {
 	/**
@@ -16,6 +20,16 @@ declare const useValue: () => {
 	 * This function is used to set a global variable
 	 */
 	setValue: (key: string, value: any) => void;
+
+	/**
+	 * This function is used to delete a global variable
+	 */
+	removeValue: (key: string) => void;
+
+	/**
+	 * This function is used to delete all values
+	 */
+	removeAllValues: (key: string) => void;
 };
 
 export { GetterSetterWrapper, useValue };

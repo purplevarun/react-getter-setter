@@ -1,12 +1,13 @@
-import { createContext, useState } from "react";
+import React from "react";
 
-export const Context = createContext();
+export const Context = React.createContext();
 
-const NAME = "react-getter-setter-data";
 const ContextProvider = ({ children }) => {
-	const [data, setData] = useState(
+	const NAME = "react-getter-setter-data";
+	const [data, setData] = React.useState(
 		localStorage.getItem(NAME) ? JSON.parse(localStorage.getItem(NAME)) : {}
 	);
+
 	const setValueLocal = (key, value) => {
 		const newData = {};
 		newData[key] = value;
@@ -45,9 +46,16 @@ const ContextProvider = ({ children }) => {
 		removeValueLocal(key);
 		localStorage.removeItem(key);
 	};
-	console.log(data);
+
+	const removeAllValues = () => {
+		setData({});
+		localStorage.clear();
+	};
+
 	return (
-		<Context.Provider value={{ getValue, setValue, removeValue }}>
+		<Context.Provider
+			value={{ getValue, setValue, removeValue, removeAllValues }}
+		>
 			{children}
 		</Context.Provider>
 	);
