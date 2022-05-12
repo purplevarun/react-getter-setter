@@ -3,6 +3,7 @@
 	"description": "Getter and Setters for Global React Variables",
 	"version": "1.0.0",
 	"main": "index.js",
+	"type": "module",
 	"repository": "https://github.com/purplevarun/react-getter-setter.git",
 	"homepage": "https://github.com/purplevarun/react-getter-setter",
 	"author": "purplevarun <purplevarun@gmail.com>",
@@ -11,5 +12,8 @@
 		"react",
 		"getter",
 		"setter"
-	]
+	],
+	"devDependencies": {
+		"react": "^18.1.0"
+	}
 }
