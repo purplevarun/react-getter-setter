@@ -1,9 +1,15 @@
-[![version](https://img.shields.io/npm/v/react-getter-setter.svg)](https://www.npmjs.com/package/react-getter-setter)
-[![downloads](https://img.shields.io/npm/dt/react-getter-setter.svg)](https://www.npmjs.com/package/react-getter-setter)
-
 # react-getter-setter ⚒️
 
 > A React Library to set, get, and delete global varibles
+
+[![version](https://img.shields.io/npm/v/react-getter-setter.svg)](https://www.npmjs.com/package/react-getter-setter)
+[![downloads](https://img.shields.io/npm/dt/react-getter-setter.svg)](https://www.npmjs.com/package/react-getter-setter)
+
+## Demo
+
+<img src="https://github.com/purplevarun/react-getter-setter/blob/main/assets/demo.gif?raw=true" alt="DEMO GIF (visit gh page if not rendered)"/>
+
+<a href="https://github.com/purplevarun/react-getter-setter/blob/main/assets/App.jsx">Code Used for Demo</a>
 
 ## Installation
 
