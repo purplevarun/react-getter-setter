@@ -1,6 +1,6 @@
 {
 	"name": "react-getter-setter",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "React Getter Setter",
 	"main": "./build/index.js",
 	"types": "./build/index.d.ts",
