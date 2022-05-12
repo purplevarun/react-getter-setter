@@ -1,0 +1,15 @@
+{
+	"name": "react-getter-setter",
+	"description": "Getter and Setters for Global React Variables",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/purplevarun/react-getter-setter.git",
+	"homepage": "https://github.com/purplevarun/react-getter-setter",
+	"author": "purplevarun <purplevarun@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"getter",
+		"setter"
+	]
+}
